@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PrintDgvToXtraReport
 {
-    public partial class Form1 : Form
+    public partial class FrmMain : Form
     {
-        public Form1()
+        public FrmMain()
         {
             InitializeComponent();
             dataGridView1.DataSource = GetData();
