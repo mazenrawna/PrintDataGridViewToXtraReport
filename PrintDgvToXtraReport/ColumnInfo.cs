@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrintDgvToXtraReport
 {
-    public class MyColumn
+    public class ColumnInfo
     {
         public string HeaderText { get; set; }
         public string Name { get; set; }

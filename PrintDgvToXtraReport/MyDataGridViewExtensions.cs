@@ -15,13 +15,13 @@ namespace PrintDgvToXtraReport
         {
             if (dataGridView.DataSource != null)
             {
-                List<MyColumn> Cols = new List<MyColumn>();
+                List<ColumnInfo> Cols = new List<ColumnInfo>();
                 DataTable DataSource = (DataTable)dataGridView.DataSource;
                 foreach (DataGridViewColumn col in dataGridView.Columns)
                 {
                     if (col.Visible)
                     {
-                        Cols.Add(new MyColumn
+                        Cols.Add(new ColumnInfo
                         {
                             Name = col.Name,
                             HeaderText = col.HeaderText,

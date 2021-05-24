@@ -9,9 +9,9 @@ namespace PrintDgvToXtraReport
 {
     public class PrintableObject
     {
-        public List<MyColumn> Cols { get; set; }
+        public List<ColumnInfo> Cols { get; set; }
         public DataTable DataSource { get; set; }
-        public PrintableObject(List<MyColumn> Cols, DataTable DataSource)
+        public PrintableObject(List<ColumnInfo> Cols, DataTable DataSource)
         {
             this.Cols = Cols;
             this.DataSource = DataSource;

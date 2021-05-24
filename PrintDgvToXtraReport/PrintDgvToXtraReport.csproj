@@ -75,7 +75,7 @@
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="PrintableObject.cs" />
-    <Compile Include="MyColumn.cs" />
+    <Compile Include="ColumnInfo.cs" />
     <Compile Include="MyDataGridViewExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
